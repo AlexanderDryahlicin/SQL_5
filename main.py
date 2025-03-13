@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 from models import Base, Publisher, Book, Shop, Sale
 
 # Подключение к базе данных PostgreSQL
-DSN = 'postgresql://postgres:Haligali1982@localhost:5432/test44'
+DSN = 'postgresql://postgres:123245@localhost:5432/test44'
 engine = create_engine(DSN)
 Session = sessionmaker(bind=engine)
 session = Session()

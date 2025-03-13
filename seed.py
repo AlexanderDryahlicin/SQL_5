@@ -4,7 +4,7 @@ from models import Base, Publisher, Book, Shop, Sale
 from datetime import datetime
 
 # Подключение к базе данных PostgreSQL
-DATABASE_URI = 'postgresql://postgres:Haligali1982@localhost:5432/test44'
+DATABASE_URI = 'postgresql://postgres:12345@localhost:5432/test44'
 engine = create_engine(DATABASE_URI)
 Session = sessionmaker(bind=engine)
 session = Session()
